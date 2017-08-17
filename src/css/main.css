@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-ul,
-li {
+ul,li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -87,7 +86,7 @@ header {
     top: 0;
     left: 0;
     background: #000;
-    z-index: 2;
+    z-index: 5;
 }
 
 header .navbar a {
@@ -123,15 +122,8 @@ header .nav li a:hover {
 *******************/
 
 #intro {
-    /*background: url('./image/header-bg.jpg');*/
-    /*background-position: center;
-    background-size: cover;*/
     text-align: center;
-    /*padding-top: 300px;*/
-    /*padding-top: 100px;*/
-    /*padding-bottom: 200px;*/
     margin-top: 100px;
-    /*color: #fff;*/
     background-color: #ccc;
 }
 
@@ -148,23 +140,6 @@ header .nav li a:hover {
     font-weight: bold;
     margin-bottom: 48px;
 }
-
-
-/*#intro a {
-    display: inline-block;
-    text-transform: uppercase;
-    padding: 20px 40px;
-    color: #fff;
-    background-color: #fed136;
-    border-radius: 6px;
-    font-weight: bold;
-}*/
-
-
-/*#intro a:hover {
-    background-color: #fec503;
-}*/
-
 
 /*******************
 *    Services 区域
@@ -186,7 +161,9 @@ header .nav li a:hover {
 #services .service-lists>li span {
     color: #fed136;
 }
-
+#services .service-lists>li span:hover {
+    color: red;
+}
 #services .service-lists h4 {
     text-transform: capitalize;
     margin: 15px 0;
@@ -556,7 +533,7 @@ footer .tos {
 
 footer .tos a {
     line-height: 40px;
-    color: green;
+    color: #333;
     padding: 0 5px;
     text-transform: capitalize;
 }

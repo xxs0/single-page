@@ -14,14 +14,16 @@
 
 .item {
     box-sizing: border-box;
-    /*width: 200px;*/
     width: 229px;
     padding: 10px;
-    border: 1px solid #ccc;
+    box-shadow: 1px 1px 10px #eee;
     position: absolute;
-    /*margin: 5px;*/
     margin: 10px;
     opacity: 0;
+}
+.item:hover {
+    z-index: 2;
+    transform: scale3d(1.1, 1.1, 1.1)
 }
 
 .item a {
@@ -54,11 +56,12 @@
     font-size: 20px;
     line-height: 40px;
     margin: 10px auto;
+    padding: 10px 0;
     width: 150px;
     height: 40px;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: yellow;
+    background-color: rgba(251, 206, 71, .7);
+    color: #fff;
     font-weight: bold;
 }
 

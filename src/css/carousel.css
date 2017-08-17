@@ -1,7 +1,5 @@
 .carousel {
-    /*width: 250px;*/
-    width: 996px;
-    height: 500px;
+    height: 720px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -25,21 +23,18 @@
 }
 
 .carousel .img-ct li img {
-    /*width: 250px;*/
-    width: 996px;
-    height: 500px;
+    width: 1440px;
+    height: 720px;
 }
 
 .carousel .btn {
     display: block;
     text-align: center;
     color: #fff;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    line-height: 40px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
+    width: 100px;
+    height: 720px;
+    font-size: 40px;
+    line-height: 720px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -50,11 +45,11 @@
 }
 
 .carousel .btn-pre {
-    left: 20px;
+    left: 0px;
 }
 
 .carousel .btn-next {
-    right: 20px;
+    right: 0px;
 }
 
 
@@ -74,12 +69,12 @@
 }
 
 .carousel .icon li {
-    width: 20px;
+    width: 40px;
     height: 5px;
     background-color: #fff;
     border-radius: 5px;
     float: left;
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .carousel .icon li:hover {

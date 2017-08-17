@@ -1,7 +1,7 @@
 define(['jquery'], function ($) {
     function GoTop($ct) {
         this.$ct = $ct;
-        this.target = $('<button class="gotop">回到顶部</button>');
+        this.target = $('<button class="gotop"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>');
         this.createNode();
         this.bindEvent();
     }
