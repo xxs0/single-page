@@ -6,4 +6,4 @@
 * 3. 图片区使用瀑布流布局（图片高度不一），下部有加载更多按钮，点击加载更多会加载更多数据(新浪新闻API)
 * 4. 使用 r.js 打包应用
 
-预览：[]()
+[预览](https://xxs0.github.io/single page/www/index.html)

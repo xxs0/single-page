@@ -95,7 +95,7 @@ define(['jquery'], function ($) {
     Newslist.prototype.getNews = function (callback) {
         var _this = this;
         $.ajax({
-                url: "http://platform.sina.com.cn/slide/album_tech",
+                url: "https://platform.sina.com.cn/slide/album_tech",
                 jsonp: "jsoncallback",
                 dataType: "jsonp",
                 data: {

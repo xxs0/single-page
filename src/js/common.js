@@ -1,13 +1,10 @@
 require.config({
     baseUrl: "js",
     paths: {
-        jquery: [
-            "https://lib.baomitu.com/jquery/3.2.1/jquery.min", 
-            "./lib/jquery"
-            ],
-        carousel: "./com/carousel",
-        gotop: "./com/gotop",
-        newslist: "./com/newslist"
+        jquery: "lib/jquery.min",
+        carousel: "com/carousel",
+        gotop: "com/gotop",
+        newslist: "com/newslist"
     }
 });
 
@@ -16,4 +13,6 @@ require(['jquery', 'carousel', 'gotop', 'newslist'], function ($, Carousel, GoTo
     new GoTop($('body'));
     new Newslist($("#newsList"));
 });
+
+
 

@@ -1,8 +1,17 @@
 ({
-    baseUrl: "../src/js/com",
+    appDir: '../src',
+    baseUrl: 'js',
     paths: {
-        jquery: "empty:"
+        jquery: "lib/jquery.min",
+        carousel: "com/carousel",
+        gotop: "com/gotop",
+        newslist: "com/newslist"
     },
-    name: "../common",
-    out: "../src/js/megre.js"
+    dir: '../www',
+    optimizeCss: 'standard',
+    modules: [
+        {
+            name:'common'
+        }
+    ]
 })
