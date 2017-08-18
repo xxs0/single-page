@@ -62,7 +62,3 @@ define(['jquery'], function ($) {
 
     return Carousel;
 })
-
-
-
-// var tab1 = new Carousel($('.carousel').eq(0));

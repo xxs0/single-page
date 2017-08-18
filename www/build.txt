@@ -29,4 +29,5 @@ js/lib/jquery.min.js
 js/com/carousel.js
 js/com/gotop.js
 js/com/newslist.js
+js/com/scroll.js
 js/common.js

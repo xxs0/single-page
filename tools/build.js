@@ -5,7 +5,8 @@
         jquery: "lib/jquery.min",
         carousel: "com/carousel",
         gotop: "com/gotop",
-        newslist: "com/newslist"
+        newslist: "com/newslist",
+        scroll: "com/scroll"
     },
     dir: '../www',
     optimizeCss: 'standard',
